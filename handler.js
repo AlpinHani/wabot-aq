@@ -398,7 +398,7 @@ Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
 
 Untuk mematikan fitur ini, ketik
 *.enable delete*
-`.trim(), '© wabot-aq', 'Matikan', '.1 delete', m.message)
+`.trim(), '© AlpinXD', 'Matikan', '.1 delete', m.message)
     this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
   },
   async onCall(json) {
